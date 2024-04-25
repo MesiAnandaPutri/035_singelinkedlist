@@ -109,4 +109,10 @@ void traverse() {
 }
 
 void searchData() {
-   
+    if (listEmty()) {
+        cout << "List Kosong" << endl;
+        system("pause");
+        system("cls");
+        return;
+    }
+ 
