@@ -174,4 +174,7 @@ int main()
                 break;
             case 3:
                 traverse();
+            case 4:
+                searchData();
+                break;
            
