@@ -177,4 +177,16 @@ int main()
             case 4:
                 searchData();
                 break;
-           
+            case 5:
+                break;
+            default:
+                cout << "pilihan tidak ada" << endl;
+                break;
+            }
+        }
+        catch (exception e)
+        {
+            cout << "Terjadi kesalahan" << endl;
+        }
+    } while (pilihan != 5);
+}
