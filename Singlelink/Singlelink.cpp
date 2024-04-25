@@ -84,3 +84,10 @@ bool deleteNode(int nim) {
         START = current->next;
     return true;
 }
+
+bool listEmty() {
+    if (START == NULL)
+        return true;
+    else
+        return false;
+}
