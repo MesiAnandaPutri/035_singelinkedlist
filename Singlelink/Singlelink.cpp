@@ -153,4 +153,23 @@ int main()
                 system("pause");
                 system("cls");
                 break;
-    
+            case 2:
+                if (listEmty())
+                {
+                    cout << "List Kosong" << endl;
+                    system("pause");
+                    system("cls");
+                    break;
+                }
+                int nim;
+                cout << "Masukan NIM: ";
+                cin >> nim;
+                if (deleteNode(nim)) {
+                    cout << "nim" << " berhasil dihapus" << endl;
+                    system("pause");
+                    system("cls");
+                }
+                else
+                    cout << "Data tidak ditemukan" << endl;
+                break;
+          
